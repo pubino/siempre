@@ -11,4 +11,13 @@
   display: none;
 }
 
+.breadcrumb {
+  font-size: 1rem;
+}
+
+.breadcrumb__item {
+  line-height: 2rem;
+  border-bottom: 2px solid #003ecc;
+}
+
 /*# sourceMappingURL=siempre.css.map */
