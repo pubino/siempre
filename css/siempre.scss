@@ -4,3 +4,11 @@
 			font-size: 2em;
 		}
 }
+
+.view-advisee-list > .view-content {
+	display: flex;
+}
+
+.view-advisee-list > .view-content > .views-row:not(:empty):not(:last-child)::after {
+	content: ', ';
+}
